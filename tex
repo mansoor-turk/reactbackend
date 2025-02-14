@@ -1,0 +1,37 @@
+     
+     
+     date ,
+    time_in , 
+    vehicle_no , 
+    delivered_by , 
+    supplier_name , 
+    raw_material_purchase ,
+    sales_return ,     
+    transfer   ,         
+    po_no ,
+    grn_no ,
+    transfer_no ,
+    dcbil_no ,
+    mr_no ,
+    fixed_assets_purchase  , 
+    consumable_purchase ,
+    returnable   ,
+
+
+     UPDATE inward_gate_pass  SET date = '2025-02-10',
+    time_in = '14:30:00',
+    vehicle_no = 'ABC-1234',
+    delivered_by = 'John Doe',
+    supplier_name = 'XYZ Suppliers',
+    raw_material_purchase = 1, 
+    sales_return = 0,          
+    transfer = 1,               
+    po_no = 'PO-98765',
+    grn_no = 'GRN-2025-000123',
+    transfer_no = 'T-00123',
+    dcbil_no = 'DCB-7890',
+    mr_no = 'MR-5678',
+    fixed_assets_purchase = 0, 
+    consumable_purchase = 1,    
+    returnable = 0              
+WHERE id = 40;
